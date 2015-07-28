@@ -20,6 +20,8 @@ var main = function() {
       left: "0px"
     }, 200);
   });
+    
+
 };
 
 

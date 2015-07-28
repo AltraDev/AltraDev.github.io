@@ -4,11 +4,12 @@ body {
   margin: 0;
   overflow: hidden;
   position: relative;
+  background-color: white;
 }
 
 /* Initial menu */
 .menu {
-  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  background: #202024 url('https://www.google.ca/search?q=black+textured+backgrounds&rlz=1C1CHWA_enCA648CA648&espv=2&biw=1920&bih=947&source=lnms&tbm=isch&sa=X&ved=0CAYQ_AUoAWoVChMIi4zjuNj8xgIVkFWSCh0wygWw#imgrc=6JSnL7NOV9iqLM%3A') repeat left top;
   left: -285px;  /* start off behind the scenes */
   height: 100%;
   position: fixed;
@@ -60,13 +61,22 @@ body {
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
+  padding-left: 55px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .icon-menu i {
   margin-right: 5px;
+}
+.left-nav {
+    background-color: black;
+    width: 200px;
+    height: 1000px;
+}
+.top-bar {
+    height: 100px;
+    background-color: black;
+    width: 2025px;
+    
 }
